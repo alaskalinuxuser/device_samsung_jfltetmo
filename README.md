@@ -1,1 +1,1 @@
-# pac_device_samsung_jfltetmo
+# slim_device_samsung_jfltetmo
