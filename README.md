@@ -1,6 +1,1 @@
-# aokp_device_samsung_jfltetmo
-
-Device configuration for Samsung Galaxy S4 (T-Mobile model).
-
-Edited by AlaskaLinuxUser for AOKP MM.
-https://thealsakalinuxuser.wordpress.com
+# pac_device_samsung_jfltetmo
