@@ -20,11 +20,14 @@
 # definition file).
 #
 
-# inherit from common JF
--include device/samsung/jf-common/BoardConfigCommon.mk
+# inherit from common jf
+include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 -include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jfltetmo,jflte
+TARGET_OTA_ASSERT_DEVICE := jfltetmo,jfltexx,i9505,GT-I9505,jgedlte,i9505g,GT-I9505G,jflte,jfltecan
+
+# Properties
+TARGET_SYSTEM_PROP += device/samsung/jfltetmo/system.prop
