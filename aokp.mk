@@ -1,7 +1,7 @@
 $(call inherit-product, device/samsung/jfltetmo/full_jfltetmo.mk)
 
-# Inherit some common stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+# Inherit some common aokp stuff.
+$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
   PRODUCT_NAME=jfltetmo \
@@ -10,5 +10,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
   PRIVATE_BUILD_DESC="jfltetmo-user 5.0.1 LRX22C I9505XXUHPF4 release-keys"
 
 PRODUCT_DEVICE := jfltetmo
-PRODUCT_NAME := slim_jfltetmo
+PRODUCT_NAME := aokp_jfltetmo
 
